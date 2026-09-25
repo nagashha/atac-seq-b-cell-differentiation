@@ -1,0 +1,16 @@
+Motif Name	P-value	q-value (Benjamini)	% of Target Sequences with Motif	% of Background Sequences with Motif
+IRF4(IRF)/GM12878-IRF4-ChIP-Seq(GSE32465)/Homer	1e-202	0.0000	18.22%	7.69%
+IRF3(IRF)/BMDM-Irf3-ChIP-Seq(GSE67343)/Homer	1e-147	0.0000	18.14%	8.87%
+IRF8(IRF)/BMDM-IRF8-ChIP-Seq(GSE77884)/Homer	1e-136	0.0000	18.48%	9.38%
+IRF2(IRF)/Erythroblas-IRF2-ChIP-Seq(GSE36985)/Homer	1e-124	0.0000	10.16%	3.98%
+HEB(bHLH)/mES-Heb-ChIP-Seq(GSE53233)/Homer	1e-116	0.0000	33.38%	22.15%
+E2A(bHLH)/proBcell-E2A-ChIP-Seq(GSE21978)/Homer	1e-115	0.0000	27.92%	17.52%
+IRF1(IRF)/PBMC-IRF1-ChIP-Seq(GSE43036)/Homer	1e-113	0.0000	11.55%	5.08%
+bZIP:IRF(bZIP,IRF)/Th17-BatF-ChIP-Seq(GSE39756)/Homer	1e-111	0.0000	14.74%	7.35%
+Ptf1a(bHLH)/Panc1-Ptf1a-ChIP-Seq(GSE47459)/Homer	1e-108	0.0000	42.03%	30.27%
+Ascl1(bHLH)/NeuralTubes-Ascl1-ChIP-Seq(GSE55840)/Homer	1e-103	0.0000	26.60%	16.92%
+ISRE(IRF)/ThioMac-LPS-Expression(GSE23622)/Homer	1e-101	0.0000	7.41%	2.70%
+Ascl2(bHLH)/ESC-Ascl2-ChIP-Seq(GSE97712)/Homer	1e-91	0.0000	21.14%	12.91%
+E2A(bHLH),near_PU.1/Bcell-PU.1-ChIP-Seq(GSE21512)/Homer	1e-86	0.0000	26.32%	17.43%
+Snail1(Zf)/LS174T-SNAIL1.HA-ChIP-Seq(GSE127183)/Homer	1e-70	0.0000	17.35%	10.71%
+Slug(Zf)/Mesoderm-Snai2-ChIP-Seq(GSE61475)/Homer	1e-59	0.0000	11.58%	6.59%

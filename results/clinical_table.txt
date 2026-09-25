@@ -1,0 +1,8 @@
+sample	Donor	cell_type	lineage	treatment
+SRR7650729	D1001	Bulk_B	B	no_treament
+SRR7650735	D1001	Plasmablast	B	no_treament
+SRR7650771	D1002	Bulk_B	B	no_treament
+SRR7650777	D1002	Plasmablast	B	no_treament
+SRR7650812	D1003	Bulk_B	B	no_treament
+SRR7650851	D1004	Bulk_B	B	no_treament
+SRR7650918	D1010	Plasmablast	B	no_treament

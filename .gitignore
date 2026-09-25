@@ -1,0 +1,32 @@
+# --- large data, never commit ---
+*.bam
+*.bam.bai
+*.sam
+*.fastq
+*.fastq.gz
+*.fa
+*.fa.fai
+*.bt2
+*.gtf
+*.gtf.gz
+counts_matrix.txt
+DA_results_all.tsv
+
+# --- LaTeX build artefacts ---
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# --- R ---
+.Rhistory
+.RData
+*.rds
+
+# --- OS ---
+.DS_Store
+Thumbs.db
