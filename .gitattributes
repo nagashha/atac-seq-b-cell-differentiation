@@ -1,0 +1,7 @@
+# GitHub's language bar should describe the analysis, not the LaTeX source of
+# the report or the committed output tables. Without this, TeX dominates at
+# ~85% and the actual pipeline code looks like a rounding error.
+report/**    linguist-documentation
+docs/**      linguist-documentation
+results/**   linguist-generated
+slides/**    linguist-vendored
