@@ -64,7 +64,7 @@ Four choices in the analysis were not obvious, and the reasoning behind them is 
 
 **HOMER background.** Motif enrichment was run against the full consensus peak set rather than random genomic sequence. That changes the question from "what is in open chromatin" to "what distinguishes regions that changed from regions open in both cell types" — which is the one worth asking.
 
-**GO background.** Enrichment against the whole annotated genome would include genes the experiment had no way of reporting. The defensible universe is the 16,776 protein-coding genes (of 19,419) with a TSS within 5 kb of any consensus region; [`results/gprofiler_background.txt`](results/gprofiler_background.txt) is that list, and `scripts/03_annotation_and_motifs.sh` derives it.
+**GO background.** Enrichment against the whole annotated genome would include genes the experiment had no way of reporting. The defensible universe is the 16,776 protein-coding genes (of 19,419) with a TSS within 5 kb of any consensus region — a 13.6% reduction, which bounds how much the original choice could have mattered. [`results/gprofiler_background.txt`](results/gprofiler_background.txt) is that list, `scripts/03_annotation_and_motifs.sh` derives it, and [`docs/go_background.md`](docs/go_background.md) reports it.
 
 **Design constraint.** The assignment specified a paired design (`~ Donor + cell_type`), but only 2 of 5 donors contributed both cell types. The main analysis therefore uses `~ cell_type` on all seven samples, with the paired design run on the four matched samples as a sensitivity check. It recovered 3,692 of its 3,696 differential regions from the main analysis, with complete agreement on direction. Two matched donors cannot rule out residual confounding, and the report says so.
 
