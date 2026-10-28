@@ -1,0 +1,32 @@
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{caption}
+\usepackage[hidelinks]{hyperref}
+
+% plain captions: bold label, roman text, no colour
+\captionsetup{font=small,labelfont=bf,labelsep=period}
+\captionsetup[sub]{font=small,labelfont=rm,labelformat=parens,labelsep=space}
+\renewcommand{\thesubfigure}{\alph{subfigure}}
+
+% page numbers only
+\pagestyle{plain}
+
+% modest table spacing
+\renewcommand{\arraystretch}{1.1}
+
+% smaller code and tables so nothing runs into the margin
+\usepackage{etoolbox}
+\AtBeginEnvironment{verbatim}{\footnotesize}
+\AtBeginEnvironment{Shaded}{\footnotesize}
+\AtBeginEnvironment{Highlighting}{\footnotesize}
+\AtBeginEnvironment{longtable}{\small}
+
+% float placement
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.75}

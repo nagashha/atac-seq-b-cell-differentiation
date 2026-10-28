@@ -14,6 +14,14 @@ are not committed — see the top-level README.
 | `target_gene_DARs.tsv` | Every DAR assigned to one of the six targets, with distance and effect size |
 | `homer_up_top15.tsv` | Top known motifs in regions opening in plasmablasts |
 | `homer_down_top15.tsv` | Top known motifs in regions staying open in bulk B |
+| `gprofiler_background.txt` | 16,776 protein-coding genes with a TSS within 5 kb of a consensus region: the defensible GO universe (see `docs/go_background.md`) |
+| `DARs_N4_threshold.tsv.gz` | 12,932 DARs under the assignment PDF's N = 4 low-count filter (see `docs/filter_sensitivity.md`) |
 
 DAR columns: `baseMean`, `log2FoldChange` (apeglm-shrunk), `lfcSE`, `pvalue`,
 `padj`, `PeakID`. Positive log2FC means more accessible in plasmablasts.
+
+`DARs_N4_threshold.tsv.gz` was produced by a later re-run with DESeq2 1.42.0
+and `normal` shrinkage rather than `apeglm`, which was unavailable in that
+environment. Its effect sizes are therefore not directly comparable with
+`DARs_significant.tsv`; both arms of the comparison it belongs to used the
+same estimator. `docs/filter_sensitivity.md` sets this out.
